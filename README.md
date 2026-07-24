@@ -24,8 +24,8 @@ CineML is a self-directed learning project designed to build hands-on ML enginee
 
 - [x] Stage 0 — Environment setup
 - [x] Stage 1 — Data wrangling & EDA
-- [ ] Stage 2 — Classical supervised learning *(in progress)*
-- [ ] Stage 3 — Unsupervised learning
+- [x] Stage 2 — Classical supervised learning 
+- [ ] Stage 3 — Unsupervised learning *(in progress)*
 - [ ] Stage 4 — Pipelines & engineering craft
 - [ ] Stage 5 — NLP (sentiment analysis)
 - [ ] Stage 6 — Deep learning fundamentals (PyTorch)
@@ -38,7 +38,7 @@ CineML is a self-directed learning project designed to build hands-on ML enginee
 
 ## Exploratory Data Analysis
 
-Early findings from Stage 1:
+Findings from Stage 1:
 
 ![Rating distribution](images/rating_distribution.png)
 ![Budget vs. revenue](images/budget_vs_revenue.png)
@@ -51,6 +51,18 @@ Early findings from Stage 1:
 - Movies tend to make about the same amount they spend + or - a little bit.
 - Animation and Adventure moviers generate the most revenue, while Documentaries, TV Movie, and Foreign movies generate the least.
 - The most correlation features are profit and revenue (obviously) but vote count, vote average, and popularity are all also positively correlated with profit/revenue.
+
+Findings from Stage 2:
+
+![Comparison of Regression models](images/regression_model_comparison.png)
+![Comparison of Classification models](images/classification_model_comparsion.png)
+![Grid Search Results](images/grid_search.png)
+
+
+**Key findings:**
+- Linear regression handled mediocre on this data; Gradient Boosting Regressor was the best.
+- Classification models had scores around .7-.75 which is generally okay. Random Forest Classifier was the best classification model.
+- After using grid search to find the best parameters, Random Forest Classifier performed better overall, increasing accuracy, recall, and f1 scores.
 
 ## Repository Structure
 
