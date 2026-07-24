@@ -72,7 +72,7 @@ cineml/
 ├── images/                   # exported plots referenced in this README
 ├── 00_setup.ipynb
 ├── 01_eda.ipynb
-├── 02_supervised.ipynb        # planned
+├── 02_supervised.ipynb        
 ├── 03_unsupervised.ipynb      # planned
 ├── 04_pipelines/               # planned
 ├── 05_nlp.ipynb                # planned
