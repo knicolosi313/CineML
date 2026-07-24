@@ -70,14 +70,14 @@ Findings from Stage 2:
 cineml/
 ├── data/                     # raw + cleaned datasets
 ├── images/                   # exported plots referenced in this README
-├── 00_setup.ipynb
-├── 01_eda.ipynb
-├── 02_supervised.ipynb        
-├── 03_unsupervised.ipynb      # planned
-├── 04_pipelines/               # planned
-├── 05_nlp.ipynb                # planned
-├── 06_deep_learning.ipynb      # planned
-├── 07_recommenders.ipynb       # planned
+├── stage_1.ipynb
+├── stage_2.ipynb
+├── stage_3.ipynb        
+├── stage_4.ipynb      # planned
+├── stage_4/               # planned
+├── stage_5.ipynb                # planned
+├── stage_6.ipynb      # planned
+├── stage_7.ipynb       # planned
 ├── requirements.txt
 └── README.md
 ```
