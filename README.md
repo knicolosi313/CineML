@@ -1,2 +1,2 @@
 # CineML
-Practice project working with data analysis, machine learning, NLP, deep learning, and more on movie datasets.
+Practice project with data analysis, machine learning, NLP, and more. Working with movie datasets.
