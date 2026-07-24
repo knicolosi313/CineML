@@ -55,7 +55,7 @@ Findings from Stage 1:
 Findings from Stage 2:
 
 ![Comparison of Regression models](images/regression_model_comparison.png)
-![Comparison of Classification models](images/classification_model_comparsion.png)
+![Comparison of Classification models](images/classification_model_comparison.png)
 ![Grid Search Results](images/grid_search.png)
 
 
