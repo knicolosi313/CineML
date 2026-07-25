@@ -61,8 +61,17 @@ Findings from Stage 2:
 
 **Key findings:**
 - Linear regression handled mediocre on this data; Gradient Boosting Regressor was the best.
-- Classification models had scores around .7-.75 which is generally okay. Random Forest Classifier was the best classification model.
+- Classification models had scores around .7-.85 which is generally okay. Random Forest Classifier was the best classification model.
 - After using grid search to find the best parameters, Random Forest Classifier performed better overall, increasing accuracy, recall, and f1 scores.
+
+Findings from Stage 3:
+
+![Clustering with KMeans](images/cluster.png)
+
+
+**Key findings:**
+- An interesting finding on the movie clusters were the big blockbuster movies that were clustered tend to be Action and Adventure movies.
+- Another finding was that it clustered old/classical movies that earned large revenue with high ratings.
 
 ## Repository Structure
 
@@ -73,11 +82,11 @@ cineml/
 ├── stage_1.ipynb
 ├── stage_2.ipynb
 ├── stage_3.ipynb        
-├── stage_4.ipynb      # planned
-├── stage_4/               # planned
-├── stage_5.ipynb                # planned
-├── stage_6.ipynb      # planned
-├── stage_7.ipynb       # planned
+├── stage_4.ipynb             # planned
+├── stage_4/                  # planned
+├── stage_5.ipynb             # planned
+├── stage_6.ipynb             # planned
+├── stage_7.ipynb             # planned
 ├── requirements.txt
 └── README.md
 ```
