@@ -25,7 +25,7 @@ CineML is a self-directed learning project designed to build hands-on ML enginee
 - [x] Stage 0 — Environment setup
 - [x] Stage 1 — Data wrangling & EDA
 - [x] Stage 2 — Classical supervised learning 
-- [ ] Stage 3 — Unsupervised learning *(in progress)*
+- [x] Stage 3 — Unsupervised learning *(in progress)*
 - [ ] Stage 4 — Pipelines & engineering craft
 - [ ] Stage 5 — NLP (sentiment analysis)
 - [ ] Stage 6 — Deep learning fundamentals (PyTorch)
