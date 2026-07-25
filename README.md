@@ -106,10 +106,6 @@ jupyter notebook
 
 Python · pandas · numpy · matplotlib · seaborn · scikit-learn · PyTorch · *(planned: HuggingFace Transformers, FastAPI/Streamlit)*
 
-## What's Next
-
-Continuing through the roadmap above — next up is Stage 2 (predicting box office revenue and classifying hits vs. flops).
-
 ## Author
 
 *Keith Nicolosi — [LinkedIn](https://www.linkedin.com/in/keith-nicolosi313/)*
