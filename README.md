@@ -25,8 +25,8 @@ CineML is a self-directed learning project designed to build hands-on ML enginee
 - [x] Stage 0 — Environment setup
 - [x] Stage 1 — Data wrangling & EDA
 - [x] Stage 2 — Classical supervised learning 
-- [x] Stage 3 — Unsupervised learning *(in progress)*
-- [ ] Stage 4 — Pipelines & engineering craft
+- [x] Stage 3 — Unsupervised learning 
+- [x] Stage 4 — Pipelines & engineering craft *(in progress)*
 - [ ] Stage 5 — NLP (sentiment analysis)
 - [ ] Stage 6 — Deep learning fundamentals (PyTorch)
 - [ ] Stage 7 — Recommendation systems
@@ -68,10 +68,14 @@ Findings from Stage 3:
 
 ![Clustering with KMeans](images/cluster.png)
 
-
 **Key findings:**
 - An interesting finding on the movie clusters were the big blockbuster movies that were clustered tend to be Action and Adventure movies.
 - Another finding was that it clustered old/classical movies that earned large revenue with high ratings.
+
+Findings from Stage 4:
+
+**Key findings:**
+- Pipelines are a very efficient way of scaling, ecnoding, fitting, and predicting data.
 
 ## Repository Structure
 
@@ -82,8 +86,8 @@ cineml/
 ├── stage_1.ipynb
 ├── stage_2.ipynb
 ├── stage_3.ipynb        
-├── stage_4.ipynb             # planned
-├── stage_4/                  # planned
+├── stage_4.ipynb             
+├── stage_4/                  
 ├── stage_5.ipynb             # planned
 ├── stage_6.ipynb             # planned
 ├── stage_7.ipynb             # planned
