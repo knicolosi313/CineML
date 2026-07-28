@@ -26,8 +26,8 @@ CineML is a self-directed learning project designed to build hands-on ML enginee
 - [x] Stage 1 — Data wrangling & EDA
 - [x] Stage 2 — Classical supervised learning 
 - [x] Stage 3 — Unsupervised learning 
-- [x] Stage 4 — Pipelines & engineering craft *(in progress)*
-- [ ] Stage 5 — NLP (sentiment analysis)
+- [x] Stage 4 — Pipelines & engineering craft 
+- [x] Stage 5 — NLP (sentiment analysis) *(in progress)*
 - [ ] Stage 6 — Deep learning fundamentals (PyTorch)
 - [ ] Stage 7 — Recommendation systems
 - [ ] Stage 8 — Stretch goals (transformers, computer vision, deployment)
@@ -77,6 +77,13 @@ Findings from Stage 4:
 **Key findings:**
 - Pipelines are a very efficient way of scaling, ecnoding, fitting, and predicting data.
 
+Findings from Stage 5:
+
+**Key findings:**
+- Movie reviews from IMDB can be accurately classified by an NLP model using Tfid Vectorizer and Logistic Regression.
+- Predicting genre is difficult because movies have many genres and the model may over/underestimate genre predictions.
+- The balance of the classes in the testing and training datasets can severely impact the model's ability to produce accurate results. We can manually tell the model to balance the classes in this case.
+
 ## Repository Structure
 
 ```
@@ -88,7 +95,7 @@ cineml/
 ├── stage_3.ipynb        
 ├── stage_4.ipynb             
 ├── stage_4/                  
-├── stage_5.ipynb             # planned
+├── stage_5.ipynb             
 ├── stage_6.ipynb             # planned
 ├── stage_7.ipynb             # planned
 ├── requirements.txt
